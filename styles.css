@@ -1,0 +1,73 @@
+/* CSS styles for the web page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+    header {
+      border: 2px solid #333333;
+      border-radius: 10px;
+      padding: 10px;
+      background-image: url('starry-sky.jpg');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    }
+    #contact-section h2,
+    #contact-section h3,
+    #contact-section h4,
+    #contact-section h5 {
+      color: black;
+    }
+    #contact-section {
+        height: 200px; /* Adjust the height as needed */
+        overflow: auto;
+      }
+      body {
+        overflow-y: scroll;
+      }
+        
+      
+      #contact-section,
+      #about-section {
+        max-height: 300px; /* Adjust the height as needed */
+        overflow: auto;
+      }
